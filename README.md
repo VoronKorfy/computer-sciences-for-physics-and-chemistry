@@ -108,3 +108,13 @@ Analyzes fluorescence decay data from mixtures of polycyclic aromatic hydrocarbo
 5. Plots measured signals with their fitted multi-exponential curves to assess fitting quality.  
 Uses `numpy`, `matplotlib`, `scipy`, and `struct`.
 
+## 7. Parsing and Checking Chemical Equations
+
+**File:** `parsing_equation.py`  
+Automates the analysis and validation of chemical formulas and reaction equations using CSV input data and regular expressions.
+
+1. Reads lists of chemical formulas and reaction equations from CSV files.  
+2. **Formula Parsing:** Extracts elements and their subscripts from each molecular formula (e.g., `C2H5OH` → `C:2, H:6, O:1`) and identifies molecules matching specific criteria, such as containing 2 carbon and 5 hydrogen atoms.  
+3. **Equation Balancing Check:** Splits chemical equations into reactants and products, parses each side, counts atoms for all elements, and verifies whether the equation is balanced. Reports the number of balanced equations in each input file (`balanceequation1.csv`, `balanceequation2.csv`).  
+4. Prints results of parsing and balance checking for easy verification.  
+Uses `re` and `csv` modules.
