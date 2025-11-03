@@ -43,5 +43,5 @@ class PiEval:
         return ratio_of_area*4
 
 
-print(Pi.deterministic())
-print(Pi.stochastic())
+print(PiEval.deterministic())
+print(PiEval.stochastic())
