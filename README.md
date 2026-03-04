@@ -1,6 +1,5 @@
-# Computer Sciences for Physics and Chemistry – Practical Works
+# Computer Sciences for Physics and Chemistry
 
-This repository contains all practical works for the course **Computer Sciences for Physics and Chemistry** (Prof. Dr. Morgan Madec, morgan.madec@unistra.fr).
 ---
 
 ## 1. Calculation of Pi
